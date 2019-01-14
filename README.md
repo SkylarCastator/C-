@@ -7,3 +7,4 @@ Projects written in Visual Studios for C++ and C#
   </br>
   <b>Text_To_Speech</b></br>
   A project to have a generated voice say things from a text field based from L from DeathNote
+  ![DeathNote](https://findicons.com/files/icons/634/death_note/256/l_laptop.png)
