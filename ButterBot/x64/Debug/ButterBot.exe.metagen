@@ -1,0 +1,29 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly ButterBot, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Speech, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class CommandDatabaseEngine: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    DefaultsLibrary* default_Library_Resources : Public
+  Methods:
+    GenerateDefaultClass(basic_string<char\,std::char_traits<char>\,std::allocator<char> >*): PrivateScope, Public, HideBySig
+    GenerateObjectDetectionClass(basic_string<char\,std::char_traits<char>\,std::allocator<char> >*): PrivateScope, Public, HideBySig
+    InitalizeDataBase(): PrivateScope, Public, HideBySig
+Class RecognitionEngine: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Speech.Recognition.SpeechRecognitionEngine sRecognize : Public
+    Boolean b_speechActivated : Public
+  Methods:
+    ListenForCommand(): PrivateScope, Public, HideBySig
+    RespondToAction(String): PrivateScope, Public, HideBySig
+    IntroductionOnStart(CommandDatabaseEngine): PrivateScope, Public, HideBySig
+    sRecognize_SpeechRecognized(Object, SpeechRecognizedEventArgs): PrivateScope, Public, HideBySig

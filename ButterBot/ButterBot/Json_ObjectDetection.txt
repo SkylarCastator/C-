@@ -1,0 +1,18 @@
+{
+  "butter": {
+	"H_MIN" : 0,
+	"H_MAX" : 195,
+	"S_MIN" : 0,
+	"S_MAX" : 256,
+	"V_MIN" : 238,
+	"V_MAX" : 256
+  },
+  "ball": {
+	"H_MIN" : 0,
+	"H_MAX" : 195,
+	"S_MIN" : 0,
+	"S_MAX" : 256,
+	"V_MIN" : 238,
+	"V_MAX" : 256
+  }
+}

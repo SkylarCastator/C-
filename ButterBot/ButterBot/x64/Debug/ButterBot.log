@@ -1,0 +1,11 @@
+﻿  CommandDatabase.cpp
+c:\users\ghost\documents\visual studio 2017\projects\butterbot\butterbot\commanddatabase.cpp(41): warning C4700: uninitialized local variable 'lib' used
+c:\users\ghost\documents\rapidjson-master\include\rapidjson\internal\diyfp.h(104): warning C4793: 'rapidjson::internal::DiyFp::Normalize': function compiled as native:
+  	Found an intrinsic not supported in managed code
+c:\users\ghost\documents\rapidjson-master\include\rapidjson\internal\diyfp.h(73): warning C4793: 'rapidjson::internal::DiyFp::operator*': function compiled as native:
+  	Found an intrinsic not supported in managed code
+c:\users\ghost\documents\rapidjson-master\include\rapidjson\internal\biginteger.h(251): warning C4793: 'rapidjson::internal::BigInteger::MulAdd64': function compiled as native:
+  	Found an intrinsic not supported in managed code
+FaceDetection.obj : warning LNK4248: unresolved typeref token (01000015) for 'CvCapture'; image may not run
+FaceDetection.obj : warning LNK4248: unresolved typeref token (01000016) for 'cv.IVideoCapture'; image may not run
+  ButterBot.vcxproj -> C:\Users\Ghost\documents\visual studio 2017\Projects\ButterBot\x64\Debug\ButterBot.exe

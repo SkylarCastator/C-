@@ -1,0 +1,10 @@
+{
+	"create_tool_settings":
+	{
+		"find object": 
+		{
+		  "object_name": "object name",
+		  "set_response": "set response",
+		}
+	}
+}

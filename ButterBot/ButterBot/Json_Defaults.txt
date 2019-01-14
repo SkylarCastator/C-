@@ -1,0 +1,5 @@
+{
+	"intro_response" : "hello I am a robot with simple commands. say woba laaba dubdub to activate command listening.",
+	"activate_command" : "woba laaba dubdub",
+	"activate_response" : "what is my purpose?"
+}

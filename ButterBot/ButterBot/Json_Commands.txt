@@ -1,0 +1,24 @@
+{
+	"Main_Commands"[
+		"Voice_Commands": {
+		  "pass butter": "Oh my god",
+		  "thank you": "You are welcome",
+		  "woba laaba dubdub" : "Do you need a pain killer?",
+		  "movie": "I am not progammed for friendship",
+		  "hello": "hello, what is my purpose?",
+		  "help" : "How can I help?",
+		  "settings" : "Welcome to the settings menu, you can set my purpose here",
+		  "exit": "closing application",
+		  "morty": "burp"
+		},
+	],
+ 
+	"Settings": [
+      {
+        "create command" : "create_command",
+		"edit intro" : "edit_intro",
+		"edit action phrase" : "edit_action",
+		"edit action response" : edit_action_response,
+      }
+    ],
+}
